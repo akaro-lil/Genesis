@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navigation bar css */
+nav {
+    background-color: white;
+    border: 1px solid white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+.header p, button {
+    color: rgba(19, 18, 18, 0.793);
+}
+.name, .search {
+    margin: 15px 40px;
+}
+.search input{
+    border: 1px solid lightgrey;
+    background-color: transparent;
+    width: 250px;
+    height: 30px;
+    text-align: left;
+}
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 40px;
+    font-size: 13px;
+}
+.category a {
+    text-decoration: none;
+    color: black;
+}
+.category a:hover {
+    color: red;
+    text-decoration: underline;
+}
