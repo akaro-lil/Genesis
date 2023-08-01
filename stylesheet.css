@@ -121,7 +121,23 @@ nav {
 }
 /* end of main css */
 
-
+/* start footer css */
+.footer {
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    margin: 40px;
+    font-size: 12px;
+}
+.socials a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.copyright a {
+    color: red;
+}
+/* end footer css */
 
 
 
